@@ -1,0 +1,63 @@
+@media screen and (max-width: 1114px){
+
+    #imagen{
+        width: 80px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0px 20px 0px 20px;
+    } 
+    #menuPrincipal{
+        width: 60%;
+        margin-left:-15px;
+        }
+
+    .opcion{
+        font-size: .8rem;
+    }
+
+    /*----------------------------------------------------*/
+    .fotoprincipal{
+        width: 80%;
+        height: 380px;
+        margin:auto;
+        overflow: hidden;
+    }
+
+    #niñas{
+        width: 100%;
+    }
+    
+    #cuadro22 img, #cuadro22 article{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    #cuadro22 img{
+        width: 540px;
+        padding-left: 90px;
+    }
+
+    #cuadro22 article{
+        padding-left: 30px;
+        text-align: left;
+        align-content: center;
+        display: inline;
+    }
+
+    #boton{
+        padding: 10px 15px 15px 25px;        
+        font-size: 20px;
+    }
+
+    /*----------------------------------------------------*/
+    #imgredes{
+        width:180px; 
+        margin-top:-55px;
+    }
+    #redestext{
+        margin-top: -30px;
+    }
+
+}
+

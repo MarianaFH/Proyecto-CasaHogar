@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px){
+
+    header{
+        height: 90px;
+    }
+
+    #imagen{
+        width: 60px;
+        vertical-align: middle;
+        margin: 0px 40px 0px 20px;
+    }
+
+    #nombre{
+        font-size:1.2rem ;  
+    }
+
+    figure{
+        width: 20%;
+    }
+
+
+    #menu-ham{
+        width: 40%;
+        min-width: 100px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px;
+        text-align: right;
+    }
+
+    #abrir-ham{
+        display: inline-block;
+    }
+
+    #menuPrincipal{
+        height: 0px;
+        width: 90%;
+        overflow: hidden;
+
+    }
+
+    #cabecera:target #abrir-ham{
+        display: none;
+    }
+
+    #cabecera:target #cerrar-ham{
+        display: inline-block;
+    }
+
+    #cabecera:target #menuPrincipal{
+        height: 200px;
+    }
+
+    .opcion{
+        width: 100%;
+        text-align: right;
+        font-size: 1rem;
+        margin-left: 5px;
+    }
+
+
+
+    /*----------------------------------------------------*/
+    #titulo1{
+        font-size:40px;
+        text-align: left;
+        display:block;
+        margin-left: 90px;
+        padding-top: 20px;
+    }
+    
+    
+    .cuadro1{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        margin-top: 20px;
+    }
+    
+    .seccion{
+        width: 90%;
+        margin:40px 15px;
+        display: inline-block;
+    }
+    
+    #imagen1{
+        width: 90%;
+        height: 300px;
+    }
+    
+    #texto1{
+        font-size: 1.4rem;
+    }
+    
+    #texto11{
+        font-size: 1rem; 
+        text-align: center;
+    }
+
+    /*----------------------------------------------------*/
+    #imgredes{
+        width:170px; 
+        margin-top:-55px;
+    }
+    #redestext{
+        margin-top: -25px;
+    }
+    
+
+    #opcion1, #opcion2,#redestext, #opcion3{
+        font-size:0.5rem;
+        }
+    
+
+    .info{
+      padding-left: 10px;
+    }
+
+    #imgredes{
+        width:120px; 
+        margin-top:-25px;
+    }
+    }
